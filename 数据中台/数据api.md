@@ -57,11 +57,22 @@ api名称| 状态| api类型| 数据源| 最近24小时调用| 累计调用| 创
 
 
 新建api页：
-1. 选择创建模式：（1）模板向导模式（2）自定义sql模式
-2. 进行新建
+1. 选择创建模式：
+（1）模板向导模式
+> 只支持单张表原生字段配置，适合单张表的AP查询生成。“step by  step,简单易上手”
 
-模板向导模式页：  
-第一页
+（2）自定义sql模式
+>支持多张表的关联输出，复杂查询条件及简单函数计算。“defined   by  yourself,灵活配置”
+
+![image](https://github.com/wjn0918/data_governance/blob/master/数据中台/images/create_API_1.png)
+
+
+2. 进行新建
+* 模板向导模式
+
+![image](https://github.com/wjn0918/data_governance/blob/master/数据中台/images/create_API_2.png)
+
+
 1. 基本信息：  
 > *所属类目         （此处为下拉框，列出创建的类目，同时有所属类目按钮）   
 > *api名称  
@@ -81,7 +92,7 @@ api名称| 状态| api类型| 数据源| 最近24小时调用| 累计调用| 创
 如果您未建立任何安全组，可进入安全组进行新建
 ```
 
-第二页
+![image](https://github.com/wjn0918/data_governance/blob/master/数据中台/images/create_API_3.png)
 左侧
 1. 数据源配置
 > 数据源类型  
@@ -122,6 +133,7 @@ api名称| 状态| api类型| 数据源| 最近24小时调用| 累计调用| 创
 
 
 
+![image](https://github.com/wjn0918/data_governance/blob/master/数据中台/images/create_API_4.png)
 第三页：  
 右侧  
 
